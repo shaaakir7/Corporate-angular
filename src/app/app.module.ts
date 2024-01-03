@@ -9,12 +9,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HowItWorksComponent
+
   ],
   imports: [
     BrowserModule,
