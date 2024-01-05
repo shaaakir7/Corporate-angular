@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HammerModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +17,7 @@ import { WorksComponent } from './works/works.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { ContactComponent } from './contact/contact.component';
 import { TestComponent } from './test/test.component';
+import { TouchSliderComponent } from './touch-slider/touch-slider.component';
 
 
 @NgModule({
@@ -35,7 +36,9 @@ import { TestComponent } from './test/test.component';
     FlexLayoutModule, 
     HttpClientModule, BrowserAnimationsModule,
     MatCheckboxModule,
-    MatCardModule
+    MatCardModule,
+    TouchSliderComponent,
+    HammerModule
     
   ],
   providers: [],
