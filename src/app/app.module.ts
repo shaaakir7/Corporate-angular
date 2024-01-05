@@ -17,7 +17,7 @@ import { WorksComponent } from './works/works.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { ContactComponent } from './contact/contact.component';
 import { TestComponent } from './test/test.component';
-
+import { TouchSliderComponent } from './touch-slider/touch-slider.component';
 
 
 @NgModule({
@@ -37,7 +37,8 @@ import { TestComponent } from './test/test.component';
     HttpClientModule, BrowserAnimationsModule,
     MatCheckboxModule,
     MatCardModule,
-  
+    TouchSliderComponent,
+    HammerModule
     
   ],
   providers: [],
