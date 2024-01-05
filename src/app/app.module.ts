@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCardModule} from '@angular/material/card';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
@@ -33,7 +34,8 @@ import { TestComponent } from './test/test.component';
     AppRoutingModule,
     FlexLayoutModule, 
     HttpClientModule, BrowserAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatCardModule
     
   ],
   providers: [],
