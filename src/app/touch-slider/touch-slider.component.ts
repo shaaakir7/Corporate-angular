@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import 'hammerjs';
 export interface Slide {
   imgSrc:string;
   imgAlt:string;
